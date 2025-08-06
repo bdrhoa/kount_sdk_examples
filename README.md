@@ -1,5 +1,5 @@
 # kount_sdk_examples
-Simple apps that demonstrate the various SDK that can be used for Command or Kount 360 Payment Fraud.
+Simple apps that demonstrate the various SDKs that can be used for Command or Kount 360 Payment Fraud.
 ## Java Notes
 Set the following properties in the src/main/resources/config.properties file:
 * migration.mode.enabled=true|false
