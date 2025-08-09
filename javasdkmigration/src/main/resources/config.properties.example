@@ -1,0 +1,8 @@
+kount.config.key=<the_kount_config_key>
+kount.api.key=<the_kount_command_api_key>
+kount.api.url=https://risk.test.kount.net
+migration.mode.enabled=true
+payments.fraud.client.id=<your_client_id>
+payments.fraud.auth.endpoint=https://login.kount.com/oauth2/ausdppkujzCPQuIrY357/v1/token
+payments.fraud.api.endpoint=https://api-sandbox.kount.com/commerce/ris
+payments.fraud.api.key=<your_kount_360_api_key>
