@@ -1,4 +1,5 @@
 ## Java Notes
+Copy or rename rc/main/resources/config.properties.example to rc/main/resources/config.properties
 Set the following properties in the src/main/resources/config.properties file:
 * migration.mode.enabled=true|false
 * kount.config.key=<the_kount_config_key>
