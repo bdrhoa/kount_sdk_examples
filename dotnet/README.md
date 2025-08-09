@@ -1,5 +1,5 @@
 ## .Net Notes
-### Copy or rename kountdotnetexample/appsetting.json.example to rename kountdotnetexample/appsetting.json
+### Copy or rename kountdotnetexample/appsetting.json.example to kountdotnetexample/appsetting.json
 ### Set the following properties in the src/main/resources/config.properties file:
 * Ris.EnableMigrationMode=true|false
 * Ris.MerchantId=<your_client_id>
