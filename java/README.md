@@ -8,4 +8,5 @@
 * payments.fraud.api.key=<your_kount_360_api_key>
 
 ### To execute issue:
+* Make sure you're in the javasdkmigration directory.
 * mvn compile exec:java -Dexec.mainClass="com.kount.example.javasdk.Main"
