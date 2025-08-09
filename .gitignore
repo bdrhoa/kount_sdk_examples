@@ -52,8 +52,17 @@ replay_pid*
 
 # Ignore Java property/config files with sensitive data
 **/config.properties
+**/config.dev.properties
+**/config.prod.properties
+**/config.staging.properties
 !**/config.properties.example
 !**/config.properties.template
+!**/config.dev.properties.example
+!**/config.dev.properties.template
+!**/config.prod.properties.example
+!**/config.prod.properties.template
+!**/config.staging.properties.example
+!**/config.staging.properties.template
 
 # Ignore Java keystores
 *.jks
@@ -425,15 +434,42 @@ Debug*/
 Release*/
 # NuGet packages
 packages/
+.packages/
+**/[Pp]ackages/
+*.nupkg
+*.snupkg
+.nuget/
+.nuget/packages/
+# Ignore locally restored NuGet dependency directories
+# Ignore locally restored NuGet dependency directories
+Microsoft.*/
+System.*/
+# Ignore any versioned NuGet package directories in project root
+# Ignore locally restored SDK/library directories
+/Kount.Net.RisSDK.*/
+/*.*.*.*.*
+
+# Ignore PKCS#7 signature files (NuGet package signatures)
+**/.signature.p7s
+**/*.p7s
+**/.*.p7s
+
 # Ignore .net property/config files with sensitive data
 **/appsettings.json
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/appsettings.Staging.json
 !**/appsettings.example.json
 !**/appsettings.template.json
+!**/appsettings.Development.example.json
+!**/appsettings.Development.template.json
+!**/appsettings.Production.example.json
+!**/appsettings.Production.template.json
+!**/appsettings.Staging.example.json
+!**/appsettings.Staging.template.json
 **/web.config
 !**/web.config.example
 !**/web.config.template
 **/app.config
 !**/app.config.example
 !**/app.config.template
-!**/config.properties.example
-!**/config.properties.template
