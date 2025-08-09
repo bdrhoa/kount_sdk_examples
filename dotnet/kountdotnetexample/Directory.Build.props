@@ -1,0 +1,4 @@
+<Project>
+  <!-- If present locally, this file flips on your local source SDK wiring -->
+  <Import Project="local.kount.props" Condition="Exists('local.kount.props')" />
+</Project>

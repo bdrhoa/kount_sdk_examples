@@ -24,9 +24,11 @@
 # Go workspace file
 go.work
 
+
 ### Java ###
 # Compiled class file
 *.class
+
 
 # Log file
 *.log
@@ -473,3 +475,5 @@ System.*/
 **/app.config
 !**/app.config.example
 !**/app.config.template
+# Ignore .net keystore
+local.kount.props

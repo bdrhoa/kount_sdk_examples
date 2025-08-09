@@ -5,9 +5,17 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <!-- defaults to false when local.kount.props is absent -->
+    <UseLocalKountSdk Condition="'$(UseLocalKountSdk)'==''">false</UseLocalKountSdk>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!-- Normal path: use the NuGet package pinned to 9.0.3 -->
+  <ItemGroup Condition="'$(UseLocalKountSdk)'!='true'">
     <PackageReference Include="Kount.Net.RisSDK" Version="9.0.3" />
+  </ItemGroup>
+
+  <!-- Local debug path: use the SDK project you cloned outside the repo -->
+  <ItemGroup Condition="'$(UseLocalKountSdk)'=='true'">
+    <ProjectReference Include="$(KountSdkProject)" />
   </ItemGroup>
 </Project>

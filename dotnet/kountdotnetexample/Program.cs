@@ -18,6 +18,7 @@ class Program
         // client email
         inq.SetEmail("joe@domain.com");
         // Set default inquiry mode, internet order type
+        
         inq.SetMode(Kount.Enums.InquiryTypes.ModeQ);
         inq.SetSessionId(sessionID);
         // IP address of the customer
