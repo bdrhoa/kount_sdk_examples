@@ -425,3 +425,15 @@ Debug*/
 Release*/
 # NuGet packages
 packages/
+# Ignore .net property/config files with sensitive data
+**/appsettings.json
+!**/appsettings.example.json
+!**/appsettings.template.json
+**/web.config
+!**/web.config.example
+!**/web.config.template
+**/app.config
+!**/app.config.example
+!**/app.config.template
+!**/config.properties.example
+!**/config.properties.template
