@@ -1,8 +1,10 @@
 {
-    "require": {
-        "kount/kount-ris-php-sdk": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5"
-    }
+  "require": {
+    "kount/kount-ris-php-sdk": "^8.0",
+    "php": ">=8.2.25"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0",
+    "phpspec/prophecy-phpunit": "^2.0"
+  }
 }

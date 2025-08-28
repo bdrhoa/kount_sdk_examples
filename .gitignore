@@ -529,3 +529,6 @@ Homestead.json
 # CakePHP specific
 /tmp/
 logs/
+
+#PHP Config files with sensitive data
+**/settings.ini
