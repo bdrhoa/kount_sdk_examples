@@ -477,3 +477,55 @@ System.*/
 !**/app.config.template
 # Ignore .net keystore
 local.kount.props
+
+### PHP ###
+# Composer dependencies
+vendor/
+
+# Composer lock file if you prefer not to include it
+# composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+
+# phpunit logs
+testdox.html
+testdox.txt
+
+# php-cs-fixer
+.php-cs-fixer.cache
+
+# PHPStan
+phpstan.neon.local
+phpstan.neon.generated
+.phpstan/
+
+# Phan
+.phan/
+
+# Cache and logs
+*.cache
+*.log
+*.tmp
+
+# Laravel specific
+/storage/*.key
+.env.backup
+Homestead.yaml
+Homestead.json
+.phpunit.result.cache
+.env.dusk.local
+.env.testing
+.env.production
+
+# Symfony specific
+/var/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/logs/*
+/app/config/parameters.yml
+/app/config/parameters.ini
+
+# CakePHP specific
+/tmp/
+logs/

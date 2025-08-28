@@ -1,0 +1,408 @@
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::setPayment
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse RIS endpoint URL: [ttps://risk.test.kount.net]
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Setting API key header to RIS.
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Setting merchant ID custom header to RIS.
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MERC]=900100
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [VERS]=0710
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PENC]=KHASH
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MODE]=Q
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [CURR]=USD
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK]=PHP
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK_VERSION]=Sdk-Ris-Php-0631-20150506T1139
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SESS]=CAF15D38-31DB-4F7C-BFCE-A22F8723B169
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [LAST4]=1111
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTYP]=CARD
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTOK]=payment token hidden
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [TOTL]=500
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [EMAL]=test@kount.com
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [IPAD]=192.168.0.21
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MACK]=Y
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SITE]=DEFAULT
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_TYPE[0]]=TV
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_ITEM[0]]=LZG-123
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_DESC[0]]=32-inch LCD
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_QUANT[0]]=1
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_PRICE[0]]=129999
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [AUTH]=A
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [GENDER]=M
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [DOB]=2017-03-12
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Posting to RIS
+2022-03-08T18:56:50.66+00:00 [ERROR] Kount_Ris_Request - Kount_Ris_Request::getResponse An error occurred posting to RIS. Curl error [Protocol "ttps" not supported or disabled in libcurl]
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - merc=900100 sess=CAF15D38-31DB-4F7C-BFCE-A22F8723B169 sdk_elapsed=1ms
+2022-03-08T18:56:50.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Raw RIS response:
+ 
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::setPayment
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse RIS endpoint URL: [ttps://risk.test.kount.net]
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Setting API key header to RIS.
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Setting merchant ID custom header to RIS.
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MERC]=900100
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [VERS]=0710
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PENC]=KHASH
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MODE]=Q
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [CURR]=USD
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK]=PHP
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK_VERSION]=Sdk-Ris-Php-0631-20150506T1139
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SESS]=CAF15D38-31DB-4F7C-BFCE-A22F8723B169
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [LAST4]=1111
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTYP]=CARD
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTOK]=payment token hidden
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [TOTL]=500
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [EMAL]=test@kount.com
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [IPAD]=192.168.0.21
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MACK]=Y
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SITE]=DEFAULT
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_TYPE[0]]=TV
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_ITEM[0]]=LZG-123
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_DESC[0]]=32-inch LCD
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_QUANT[0]]=1
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_PRICE[0]]=129999
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [AUTH]=A
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [GENDER]=M
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [DOB]=2017-03-12
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Posting to RIS
+2022-03-08T18:58:21.66+00:00 [ERROR] Kount_Ris_Request - Kount_Ris_Request::getResponse An error occurred posting to RIS. Curl error [Protocol "ttps" not supported or disabled in libcurl]
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - merc=900100 sess=CAF15D38-31DB-4F7C-BFCE-A22F8723B169 sdk_elapsed=0ms
+2022-03-08T18:58:21.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Raw RIS response:
+ 
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::setPayment
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse RIS endpoint URL: [ttps://risk.test.kount.net]
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Setting API key header to RIS.
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Setting merchant ID custom header to RIS.
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MERC]=900100
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [VERS]=0710
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PENC]=KHASH
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MODE]=Q
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [CURR]=USD
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK]=PHP
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK_VERSION]=Sdk-Ris-Php-0631-20150506T1139
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SESS]=CAF15D38-31DB-4F7C-BFCE-A22F8723B169
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [LAST4]=1111
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTYP]=CARD
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTOK]=payment token hidden
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [TOTL]=500
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [EMAL]=test@kount.com
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [IPAD]=192.168.0.21
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MACK]=Y
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SITE]=DEFAULT
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_TYPE[0]]=TV
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_ITEM[0]]=LZG-123
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_DESC[0]]=32-inch LCD
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_QUANT[0]]=1
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_PRICE[0]]=129999
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [AUTH]=A
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [GENDER]=M
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [DOB]=2017-03-12
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Posting to RIS
+2022-03-08T19:04:01.66+00:00 [ERROR] Kount_Ris_Request - Kount_Ris_Request::getResponse An error occurred posting to RIS. Curl error [Protocol "ttps" not supported or disabled in libcurl]
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - merc=900100 sess=CAF15D38-31DB-4F7C-BFCE-A22F8723B169 sdk_elapsed=0ms
+2022-03-08T19:04:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Raw RIS response:
+ 
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::setPayment
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse RIS endpoint URL: [ttps://risk.test.kount.net]
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Setting API key header to RIS.
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Setting merchant ID custom header to RIS.
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MERC]=900100
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [VERS]=0710
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PENC]=KHASH
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MODE]=Q
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [CURR]=USD
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK]=PHP
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK_VERSION]=Sdk-Ris-Php-0631-20150506T1139
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SESS]=CAF15D38-31DB-4F7C-BFCE-A22F8723B169
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [LAST4]=1111
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTYP]=CARD
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTOK]=payment token hidden
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [TOTL]=500
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [EMAL]=test@kount.com
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [IPAD]=192.168.0.21
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MACK]=Y
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SITE]=DEFAULT
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_TYPE[0]]=TV
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_ITEM[0]]=LZG-123
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_DESC[0]]=32-inch LCD
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_QUANT[0]]=1
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_PRICE[0]]=129999
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [AUTH]=A
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [GENDER]=M
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [DOB]=2017-03-12
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Posting to RIS
+2022-03-08T19:05:46.66+00:00 [ERROR] Kount_Ris_Request - Kount_Ris_Request::getResponse An error occurred posting to RIS. Curl error [Protocol "ttps" not supported or disabled in libcurl]
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - merc=900100 sess=CAF15D38-31DB-4F7C-BFCE-A22F8723B169 sdk_elapsed=1ms
+2022-03-08T19:05:46.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Raw RIS response:
+ 
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::setPayment
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse RIS endpoint URL: [ttps://risk.test.kount.net]
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Setting API key header to RIS.
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Setting merchant ID custom header to RIS.
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MERC]=900100
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [VERS]=0710
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PENC]=KHASH
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MODE]=Q
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [CURR]=USD
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK]=PHP
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK_VERSION]=Sdk-Ris-Php-0631-20150506T1139
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SESS]=CAF15D38-31DB-4F7C-BFCE-A22F8723B169
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [LAST4]=1111
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTYP]=CARD
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTOK]=payment token hidden
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [TOTL]=500
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [EMAL]=test@kount.com
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [IPAD]=192.168.0.21
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MACK]=Y
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SITE]=DEFAULT
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_TYPE[0]]=TV
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_ITEM[0]]=LZG-123
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_DESC[0]]=32-inch LCD
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_QUANT[0]]=1
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_PRICE[0]]=129999
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [AUTH]=A
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [GENDER]=M
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [DOB]=2017-03-12
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Posting to RIS
+2022-03-08T19:05:51.66+00:00 [ERROR] Kount_Ris_Request - Kount_Ris_Request::getResponse An error occurred posting to RIS. Curl error [Protocol "ttps" not supported or disabled in libcurl]
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - merc=900100 sess=CAF15D38-31DB-4F7C-BFCE-A22F8723B169 sdk_elapsed=0ms
+2022-03-08T19:05:51.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Raw RIS response:
+ 
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::setPayment
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse RIS endpoint URL: [ttps://risk.test.kount.net]
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Setting API key header to RIS.
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Setting merchant ID custom header to RIS.
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MERC]=900100
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [VERS]=0710
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PENC]=KHASH
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MODE]=Q
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [CURR]=USD
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK]=PHP
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK_VERSION]=Sdk-Ris-Php-0631-20150506T1139
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SESS]=CAF15D38-31DB-4F7C-BFCE-A22F8723B169
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [LAST4]=1111
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTYP]=CARD
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTOK]=payment token hidden
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [TOTL]=500
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [EMAL]=test@kount.com
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [IPAD]=192.168.0.21
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MACK]=Y
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SITE]=DEFAULT
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_TYPE[0]]=TV
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_ITEM[0]]=LZG-123
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_DESC[0]]=32-inch LCD
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_QUANT[0]]=1
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_PRICE[0]]=129999
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [AUTH]=A
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [GENDER]=M
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [DOB]=2017-03-12
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Posting to RIS
+2022-03-08T19:15:23.66+00:00 [ERROR] Kount_Ris_Request - Kount_Ris_Request::getResponse An error occurred posting to RIS. Curl error [Protocol "ttps" not supported or disabled in libcurl]
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - merc=900100 sess=CAF15D38-31DB-4F7C-BFCE-A22F8723B169 sdk_elapsed=1ms
+2022-03-08T19:15:23.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Raw RIS response:
+ 
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::setPayment
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse RIS endpoint URL: [ttps://risk.test.kount.net]
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Setting API key header to RIS.
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Setting merchant ID custom header to RIS.
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MERC]=900100
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [VERS]=0710
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PENC]=KHASH
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MODE]=Q
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [CURR]=USD
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK]=PHP
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK_VERSION]=Sdk-Ris-Php-0631-20150506T1139
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SESS]=CAF15D38-31DB-4F7C-BFCE-A22F8723B169
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [LAST4]=1111
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTYP]=CARD
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTOK]=payment token hidden
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [TOTL]=500
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [EMAL]=test@kount.com
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [IPAD]=192.168.0.21
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MACK]=Y
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SITE]=DEFAULT
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_TYPE[0]]=TV
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_ITEM[0]]=LZG-123
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_DESC[0]]=32-inch LCD
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_QUANT[0]]=1
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_PRICE[0]]=129999
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [AUTH]=A
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [GENDER]=M
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [DOB]=2017-03-12
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Posting to RIS
+2022-03-08T19:17:15.66+00:00 [ERROR] Kount_Ris_Request - Kount_Ris_Request::getResponse An error occurred posting to RIS. Curl error [Protocol "ttps" not supported or disabled in libcurl]
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - merc=900100 sess=CAF15D38-31DB-4F7C-BFCE-A22F8723B169 sdk_elapsed=1ms
+2022-03-08T19:17:15.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Raw RIS response:
+ 
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::setPayment
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse RIS endpoint URL: [ttps://risk.test.kount.net]
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Setting API key header to RIS.
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Setting merchant ID custom header to RIS.
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MERC]=900100
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [VERS]=0710
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PENC]=KHASH
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MODE]=Q
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [CURR]=USD
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK]=PHP
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK_VERSION]=Sdk-Ris-Php-0631-20150506T1139
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SESS]=CAF15D38-31DB-4F7C-BFCE-A22F8723B169
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [LAST4]=1111
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTYP]=CARD
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTOK]=payment token hidden
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [TOTL]=500
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [EMAL]=test@kount.com
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [IPAD]=192.168.0.21
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MACK]=Y
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SITE]=DEFAULT
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_TYPE[0]]=TV
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_ITEM[0]]=LZG-123
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_DESC[0]]=32-inch LCD
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_QUANT[0]]=1
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_PRICE[0]]=129999
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [AUTH]=A
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [GENDER]=M
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [DOB]=2017-03-12
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Posting to RIS
+2022-03-08T19:17:37.66+00:00 [ERROR] Kount_Ris_Request - Kount_Ris_Request::getResponse An error occurred posting to RIS. Curl error [Protocol "ttps" not supported or disabled in libcurl]
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - merc=900100 sess=CAF15D38-31DB-4F7C-BFCE-A22F8723B169 sdk_elapsed=1ms
+2022-03-08T19:17:37.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Raw RIS response:
+ 
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::setPayment
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse RIS endpoint URL: [https://risk.test.kount.net]
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Setting API key header to RIS.
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Setting merchant ID custom header to RIS.
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MERC]=900100
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [VERS]=0710
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PENC]=KHASH
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MODE]=Q
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [CURR]=USD
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK]=PHP
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK_VERSION]=Sdk-Ris-Php-0631-20150506T1139
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SESS]=CAF15D38-31DB-4F7C-BFCE-A22F8723B169
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [LAST4]=1111
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTYP]=CARD
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTOK]=payment token hidden
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [TOTL]=500
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [EMAL]=test@kount.com
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [IPAD]=192.168.0.21
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MACK]=Y
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SITE]=DEFAULT
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_TYPE[0]]=TV
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_ITEM[0]]=LZG-123
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_DESC[0]]=32-inch LCD
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_QUANT[0]]=1
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_PRICE[0]]=129999
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [AUTH]=A
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [GENDER]=M
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [DOB]=2017-03-12
+2022-03-08T20:31:00.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Posting to RIS
+2022-03-08T20:31:01.66+00:00 [DEBUG] Kount_Ris_Request - merc=900100 sess=CAF15D38-31DB-4F7C-BFCE-A22F8723B169 sdk_elapsed=688ms
+2022-03-08T20:31:01.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Raw RIS response:
+ MODE=E
+ERRO=304
+ERROR_0=304 BAD_SESS Cause: [[CAF15D38-31DB-4F7C-BFCE-A22F8723B169] must match rexeg /^[\w-]{1,32}$/ in this case], Field: [SESS], Value: [CAF15D38-31DB-4F7C-BFCE-A22F8723B169]
+ERROR_COUNT=1
+WARNING_COUNT=0
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::setPayment
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse RIS endpoint URL: [https://risk.test.kount.net]
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Setting API key header to RIS.
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Setting merchant ID custom header to RIS.
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MERC]=900100
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [VERS]=0710
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PENC]=KHASH
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MODE]=Q
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [CURR]=USD
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK]=PHP
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SDK_VERSION]=Sdk-Ris-Php-0631-20150506T1139
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SESS]=CAF15D3831DB4F7CBFCEA22F8723B169
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [LAST4]=1111
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTYP]=CARD
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PTOK]=payment token hidden
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [TOTL]=500
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [EMAL]=test@kount.com
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [IPAD]=192.168.0.21
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [MACK]=Y
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [SITE]=DEFAULT
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_TYPE[0]]=TV
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_ITEM[0]]=LZG-123
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_DESC[0]]=32-inch LCD
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_QUANT[0]]=1
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [PROD_PRICE[0]]=129999
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [AUTH]=A
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [GENDER]=M
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse [DOB]=2017-03-12
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Posting to RIS
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - merc=900100 sess=CAF15D3831DB4F7CBFCEA22F8723B169 sdk_elapsed=573ms
+2022-03-08T20:32:10.66+00:00 [DEBUG] Kount_Ris_Request - Kount_Ris_Request::getResponse Raw RIS response:
+ VERS=0710
+MODE=Q
+TRAN=KKCZ0C3C7DRG
+MERC=900100
+SESS=CAF15D3831DB4F7CBFCEA22F8723B169
+ORDR=
+AUTO=R
+SCOR=38
+GEOX=US
+BRND=VISA
+REGN=
+NETW=A
+KYCF=N
+KAPT=N
+CARDS=1
+DEVICES=1
+EMAILS=1
+VELO=0
+VMAX=0
+SITE=DEFAULT
+DEVICE_LAYERS=....
+FINGERPRINT=
+TIMEZONE=
+LOCALTIME= 
+REGION=
+COUNTRY=
+PROXY=
+JAVASCRIPT=
+FLASH=
+COOKIES=
+HTTP_COUNTRY=
+LANGUAGE=
+MOBILE_DEVICE=
+MOBILE_TYPE=
+MOBILE_FORWARDER=
+VOICE_DEVICE=
+PC_REMOTE=
+RULES_TRIGGERED=2
+RULE_ID_0=14358187
+RULE_DESCRIPTION_0=VIP Decline list - email, addresses, device, Card
+RULE_ID_1=14818549
+RULE_DESCRIPTION_1=Test Product Type Velocity
+COUNTERS_TRIGGERED=0
+REASON_CODE=
+DDFS=
+DSR=
+UAS=
+BROWSER=
+OS=
+PIP_IPAD=
+PIP_LAT=
+PIP_LON=
+PIP_COUNTRY=
+PIP_REGION=
+PIP_CITY=
+PIP_ORG=
+IP_IPAD=
+IP_LAT=
+IP_LON=
+IP_COUNTRY=
+IP_REGION=
+IP_CITY=
+IP_ORG=
+OMNISCORE=62.8
+PREVIOUSLY_WHITELISTED=N
+THREE_DS_MERCHANT_RESPONSE=
+WARNING_COUNT=0

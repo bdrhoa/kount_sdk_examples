@@ -1,0 +1,8 @@
+{
+    "require": {
+        "kount/kount-ris-php-sdk": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
