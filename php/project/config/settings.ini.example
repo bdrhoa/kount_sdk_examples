@@ -73,7 +73,7 @@ SIMPLE_LOG_RIS_METRICS = OFF
 
 [PAYMENTS_FRAUD]
 ; Whether or not to enable Payments Fraud migration mode
-MIGRATION_MODE_ENABLED=FALSE
+MIGRATION_MODE_ENABLED=TRUE
 
 ; Payments Fraud client ID analagous to the Kount RIS merchant ID
 PF_CLIENT_ID = $PF_CLIENT_ID
