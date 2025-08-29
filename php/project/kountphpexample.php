@@ -11,6 +11,15 @@
   // If using Composer installation
   require __DIR__ . '/vendor/autoload.php';
 
+  // Point SDK to our app config (SDK still uses [SDK] values)
+  define('KOUNT_SETTINGS_FILE', __DIR__ . '/config/settings.ini');
+  $appCfg = parse_ini_file(KOUNT_SETTINGS_FILE, true);
+  $pfCfg = isset($appCfg['PAYMENTS_FRAUD']) ? $appCfg['PAYMENTS_FRAUD'] : [];
+  $migrationEnabled = isset($pfCfg['MIGRATION_MODE_ENABLED']) && strtoupper($pfCfg['MIGRATION_MODE_ENABLED']) === 'TRUE';
+
+  print_r("migrationEnabled\n");
+  print_r($migrationEnabled);
+
   // Minimal RIS inquiry example:
   try {
     $inquiry = new Kount_Ris_Request_Inquiry();
@@ -50,3 +59,4 @@
     print_r($e);
     // handle exception
   }
+
