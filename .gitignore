@@ -532,3 +532,5 @@ logs/
 
 #PHP Config files with sensitive data
 **/settings.ini
+
+*.sav
