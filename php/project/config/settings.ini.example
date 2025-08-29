@@ -44,8 +44,8 @@ PEM_KEY_FILE = /path/to/keyfile.pem
 PEM_PASS_PHRASE = passphrase
 
 ; API authentication token. Use in favor of deprecated certificates for
-; authentication.
-API_KEY = $API_KEY
+; authentication. Note the API keys end in == so you must put them in ""
+API_KEY = "$API_KEY"
 
 [LOGGING]
 ; Specify the logger to use. The default loggers supplied with the Kount RIS
