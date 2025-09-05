@@ -10,3 +10,4 @@
 ### To execute issue:
 * Make sure you're in the javasdkmigration directory.
 * mvn compile exec:java -Dexec.mainClass="com.kount.example.javasdk.Main"
+* If you've run this before, to make sure you're using the latest SDK, run mvn -U compile exec:java -Dexec.mainClass="com.kount.example.javasdk.Main"
