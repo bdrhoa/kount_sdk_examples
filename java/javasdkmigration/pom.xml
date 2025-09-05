@@ -52,7 +52,7 @@
     <dependency>
       <groupId>com.kount</groupId>
       <artifactId>kount-ris-sdk</artifactId>
-      <version>8.0.0</version>
+      <version>[8.0.0,)</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
