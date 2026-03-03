@@ -1,9 +1,33 @@
 ﻿using System.Collections;
 using Kount;
 using KountRisSdk;
+using Kount.Enums;
 
 class Program
 {
+
+    static string GetRisField(Kount.Ris.Response response, string key)
+    {
+        if (response == null) throw new ArgumentNullException(nameof(response));
+        if (string.IsNullOrWhiteSpace(key)) throw new ArgumentException("Key is required.", nameof(key));
+
+        var s = response.ToString() ?? "";
+        var lines = s.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
+
+        foreach (var line in lines)
+        {
+            // Expect "KEY=VALUE"
+            int eq = line.IndexOf('=');
+            if (eq <= 0) continue;
+
+            var k = line.Substring(0, eq).Trim();
+            if (string.Equals(k, key, StringComparison.OrdinalIgnoreCase))
+                return line.Substring(eq + 1).Trim();
+        }
+
+        return "Unknown"; // not found
+    }
+
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
@@ -31,5 +55,15 @@ class Program
         inq.SetCart(cart);
         Kount.Ris.Response response = inq.GetResponse();
         Console.WriteLine("RESPONSE: " + response.ToString());
+        //MODE U
+        string transactionId = GetRisField(response, "TRAN");
+        Console.WriteLine("TRAN: " + transactionId);
+        var update = new Kount.Ris.Update();
+        update.SetMode(UpdateTypes.ModeU);
+        update.SetAuth('D');
+        update.SetSessionId(sessionID);
+        update.SetTransactionId(transactionId);
+        Kount.Ris.Response updateResponse = update.GetResponse();
+        Console.WriteLine("UPDATE RESPONSE: " + updateResponse.ToString());
     }
 }
