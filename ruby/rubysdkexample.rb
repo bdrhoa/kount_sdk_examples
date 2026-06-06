@@ -10,7 +10,7 @@ options = {
   version:     '0720',
   migration_mode_enabled: true,
   pf_client_id:'your_client_id',
-  pf_auth_endpoint: 'https://login.kount.com/oauth2/ausdppkujzCPQuIrY357/v1/token',
+  pf_auth_endpoint: 'https://login-uat.equifax.com/as/token',
   pf_api_endpoint: 'https://api-sandbox.kount.com/commerce/ris',
   pf_api_key: 'your_API_key',
 }

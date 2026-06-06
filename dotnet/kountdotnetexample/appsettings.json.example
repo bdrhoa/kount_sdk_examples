@@ -19,7 +19,7 @@
     "LOG.SIMPLE.ELAPSED": "ON",
     "Ris.EnableMigrationMode": "true",
     "PaymentsFraud.ClientId": "CLIENT_ID",
-    "PaymentsFraud.Auth.Url": "https://login.kount.com/oauth2/ausdppkujzCPQuIrY357/v1/token",
+    "PaymentsFraud.Auth.Url": "https://login-uat.equifax.com/as/token",
     "PaymentsFraud.Api.Url": "https://api.kount.com/commerce/ris",
     "PaymentsFraud.Api.Key": "API_KEY"
   }

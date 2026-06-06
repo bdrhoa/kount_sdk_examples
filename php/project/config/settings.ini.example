@@ -87,4 +87,4 @@ PF_API_ENDPOINT = https://api-sandbox.kount.com/commerce/ris
 
 ; Payments Fraud Auth endpoint
 ;PF_AUTH_ENDPOINT = https://login.kount.com/oauth2/ausdppksgrbyM0abp357/v1/token
-PF_AUTH_ENDPOINT = https://login.kount.com/oauth2/ausdppkujzCPQuIrY357/v1/token
+PF_AUTH_ENDPOINT = https://login-uat.equifax.com/as/token
